@@ -1,0 +1,32 @@
+{
+  "name": "sind-police-canteen",
+  "version": "1.0.0",
+  "description": "sindh police canteen ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon dist/server.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "http-status": "^2.1.0",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10",
+    "winston-daily-rotate-file": "^5.0.0",
+    "winston-mongodb": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "typescript": "^5.8.3"
+  }
+}
